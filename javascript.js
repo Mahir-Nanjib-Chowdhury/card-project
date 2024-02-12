@@ -8,10 +8,10 @@
 
 // dummy data
      let posts = [
-         {
-             title: "Post Title 1",
-             body: "this is post 1"
-         },
+        //  {
+        //      title: "Post Title 1",
+        //      body: "this is post 1"
+        //  },
          {
             title: "Post Title 2",
             body: "this is post 2"
@@ -50,7 +50,7 @@
         data.forEach(post => {
             // Create elements
             let postElement = document.createElement("div");
-            let titleElement = document.createElement("h2");
+            let titleElement = document.createElement("h4");
             let bodyElement = document.createElement("p");
     
             // Set content
